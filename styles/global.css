@@ -1,0 +1,37 @@
+:root {
+    --bg-primary: #000000;
+    --text-light: #FFFFFF;
+    --title-primary-color: #F5F5F7;
+    --subtitle-color: #6E6E73;
+    --action-color: #2997FF;
+    
+}
+
+header {
+    background-color: var(--bg-primary);
+    color: var(--text-light);
+    height: fit-content;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header nav ul {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+header nav ul li {
+    min-width: fit-content;
+    height: fit-content;
+    padding: 0 0.75rem;
+    font-size: small;
+    cursor: pointer;
+
+    list-style: none;
+} 
